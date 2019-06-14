@@ -23,6 +23,7 @@ BCAMImageResult::~BCAMImageResult(){
 }
 
 void BCAMImageResult::Print(){
+	AliInfo(Form("-----------");
 	AliInfo(Form("Line Name: %s",GetName()));
 	AliInfo(Form("Xleft  : %.3f",GetData()->At(0)));
 	AliInfo(Form("Yleft  : %.3f",GetData()->At(1)));
