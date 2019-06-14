@@ -23,11 +23,12 @@ BCAMImageResult::~BCAMImageResult(){
 }
 
 void BCAMImageResult::Print(){
+	AliInfo(Form("-----------");
 	AliInfo(Form("Line Name: %s",GetName()));
-	AliInfo(Form("Xleft  : %.2f",GetData()->At(0)));
-	AliInfo(Form("Yleft  : %.2f",GetData()->At(1)));
-	AliInfo(Form("Xright : %.2f",GetData()->At(2)));
-	AliInfo(Form("Yright : %.2f",GetData()->At(3)));
+	AliInfo(Form("Xleft  : %.3f",GetData()->At(0)));
+	AliInfo(Form("Yleft  : %.3f",GetData()->At(1)));
+	AliInfo(Form("Xright : %.3f",GetData()->At(2)));
+	AliInfo(Form("Yright : %.3f",GetData()->At(3)));
 }
 
 void BCAMImageResult::SetLED(Int_t iLed, Float_t x, Float_t y){
