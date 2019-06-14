@@ -4,7 +4,7 @@
  *
  *  Created by tieulent on 22/04/09.
  *  Copyright 2009 Institut de Physique Nucléaire. All rights reserved.
- *
+ * Comment
  */
 #include <TArrayF.h>
 
