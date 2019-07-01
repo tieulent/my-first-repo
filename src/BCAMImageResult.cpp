@@ -37,3 +37,8 @@ void BCAMImageResult::SetLED(Int_t iLed, Float_t x, Float_t y){
 	GetData()->SetAt(x,2*iLed); 
 	GetData()->SetAt(y,2*iLed + 1);
 }
+
+
+// Je rajoute un commentaire
+
+
